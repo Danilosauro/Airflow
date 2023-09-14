@@ -1,0 +1,28 @@
+[2023-09-14T18:20:18.126+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: magic_square.Kaká manual__2023-09-14T18:20:17.304375+00:00 [queued]>
+[2023-09-14T18:20:18.138+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: magic_square.Kaká manual__2023-09-14T18:20:17.304375+00:00 [queued]>
+[2023-09-14T18:20:18.139+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-09-14T18:20:18.139+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2023-09-14T18:20:18.139+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-09-14T18:20:18.156+0000] {taskinstance.py:1300} INFO - Executing <Task(BashOperator): Kaká> on 2023-09-14 18:20:17.304375+00:00
+[2023-09-14T18:20:18.159+0000] {standard_task_runner.py:55} INFO - Started process 2367 to run task
+[2023-09-14T18:20:18.162+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'magic_square', 'Kaká', 'manual__2023-09-14T18:20:17.304375+00:00', '--job-id', '27', '--raw', '--subdir', 'DAGS_FOLDER/magic_square.py', '--cfg-path', '/tmp/tmpynorp2ic']
+[2023-09-14T18:20:18.163+0000] {standard_task_runner.py:83} INFO - Job 27: Subtask Kaká
+[2023-09-14T18:20:18.222+0000] {task_command.py:388} INFO - Running <TaskInstance: magic_square.Kaká manual__2023-09-14T18:20:17.304375+00:00 [running]> on host 8cc0db633803
+[2023-09-14T18:20:18.294+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=magic_square
+AIRFLOW_CTX_TASK_ID=Kaká
+AIRFLOW_CTX_EXECUTION_DATE=2023-09-14T18:20:17.304375+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-09-14T18:20:17.304375+00:00
+[2023-09-14T18:20:18.295+0000] {subprocess.py:63} INFO - Tmp dir root location: 
+ /tmp
+[2023-09-14T18:20:18.296+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'echo arrancada']
+[2023-09-14T18:20:18.305+0000] {subprocess.py:86} INFO - Output:
+[2023-09-14T18:20:18.307+0000] {subprocess.py:93} INFO - arrancada
+[2023-09-14T18:20:18.307+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2023-09-14T18:20:18.338+0000] {taskinstance.py:1323} INFO - Marking task as SUCCESS. dag_id=magic_square, task_id=Kaká, execution_date=20230914T182017, start_date=20230914T182018, end_date=20230914T182018
+[2023-09-14T18:20:18.374+0000] {local_task_job.py:208} INFO - Task exited with return code 0
+[2023-09-14T18:20:18.390+0000] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check
