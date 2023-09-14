@@ -2,7 +2,7 @@ from airflow import DAG
 from airflow.operators.bash import BashOperator
 from datetime import datetime 
 
-dag= DAG('magic_square', description='DAG 3 CURSO AIRFLOW', 
+dag= DAG('magic_saquare', description='magic square DAG CURSO AIRFLOW', 
      schedule_interval=None, start_date=datetime(2023,3,5), 
      catchup=False) 
 

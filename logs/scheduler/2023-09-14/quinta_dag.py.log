@@ -1,0 +1,184 @@
+[2023-09-14T19:46:46.404+0000] {processor.py:153} INFO - Started process (PID=12625) to work on /opt/airflow/dags/quinta_dag.py
+[2023-09-14T19:46:46.405+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/quinta_dag.py for tasks to queue
+[2023-09-14T19:46:46.406+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:46:46.405+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/quinta_dag.py
+[2023-09-14T19:46:46.414+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:46:46.413+0000] {taskmixin.py:205} WARNING - Dependency <Task(BashOperator): task2>, task4 already registered for DAG: quinta_dag
+[2023-09-14T19:46:46.414+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:46:46.414+0000] {taskmixin.py:205} WARNING - Dependency <Task(BashOperator): task4>, task2 already registered for DAG: quinta_dag
+[2023-09-14T19:46:46.420+0000] {processor.py:753} INFO - DAG(s) dict_keys(['quinta_dag']) retrieved from /opt/airflow/dags/quinta_dag.py
+[2023-09-14T19:46:46.531+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:46:46.531+0000] {manager.py:504} INFO - Created Permission View: can delete on DAG:quinta_dag
+[2023-09-14T19:46:46.541+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:46:46.541+0000] {manager.py:504} INFO - Created Permission View: can read on DAG:quinta_dag
+[2023-09-14T19:46:46.548+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:46:46.548+0000] {manager.py:504} INFO - Created Permission View: can edit on DAG:quinta_dag
+[2023-09-14T19:46:46.548+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:46:46.548+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-09-14T19:46:46.561+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:46:46.561+0000] {dag.py:2711} INFO - Creating ORM DAG for quinta_dag
+[2023-09-14T19:46:46.572+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:46:46.572+0000] {dag.py:3441} INFO - Setting next_dagrun for quinta_dag to None, run_after=None
+[2023-09-14T19:46:46.587+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/quinta_dag.py took 0.186 seconds
+[2023-09-14T19:46:52.578+0000] {processor.py:153} INFO - Started process (PID=12644) to work on /opt/airflow/dags/quinta_dag.py
+[2023-09-14T19:46:52.579+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/quinta_dag.py for tasks to queue
+[2023-09-14T19:46:52.579+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:46:52.579+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/quinta_dag.py
+[2023-09-14T19:46:52.589+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:46:52.589+0000] {taskmixin.py:205} WARNING - Dependency <Task(BashOperator): task2>, task4 already registered for DAG: quinta_dag
+[2023-09-14T19:46:52.590+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:46:52.589+0000] {taskmixin.py:205} WARNING - Dependency <Task(BashOperator): task4>, task2 already registered for DAG: quinta_dag
+[2023-09-14T19:46:52.595+0000] {processor.py:753} INFO - DAG(s) dict_keys(['quinta_dag']) retrieved from /opt/airflow/dags/quinta_dag.py
+[2023-09-14T19:46:52.608+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:46:52.608+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-09-14T19:46:52.633+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:46:52.633+0000] {dag.py:3441} INFO - Setting next_dagrun for quinta_dag to None, run_after=None
+[2023-09-14T19:46:52.652+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/quinta_dag.py took 0.078 seconds
+[2023-09-14T19:46:57.806+0000] {processor.py:153} INFO - Started process (PID=12649) to work on /opt/airflow/dags/quinta_dag.py
+[2023-09-14T19:46:57.806+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/quinta_dag.py for tasks to queue
+[2023-09-14T19:46:57.807+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:46:57.807+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/quinta_dag.py
+[2023-09-14T19:46:57.814+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:46:57.814+0000] {taskmixin.py:205} WARNING - Dependency <Task(BashOperator): task2>, task4 already registered for DAG: quinta_dag
+[2023-09-14T19:46:57.815+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:46:57.815+0000] {taskmixin.py:205} WARNING - Dependency <Task(BashOperator): task4>, task2 already registered for DAG: quinta_dag
+[2023-09-14T19:46:57.821+0000] {processor.py:753} INFO - DAG(s) dict_keys(['quinta_dag']) retrieved from /opt/airflow/dags/quinta_dag.py
+[2023-09-14T19:46:57.834+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:46:57.834+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-09-14T19:46:57.861+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:46:57.861+0000] {dag.py:3441} INFO - Setting next_dagrun for quinta_dag to None, run_after=None
+[2023-09-14T19:46:57.883+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/quinta_dag.py took 0.081 seconds
+[2023-09-14T19:47:03.045+0000] {processor.py:153} INFO - Started process (PID=12668) to work on /opt/airflow/dags/quinta_dag.py
+[2023-09-14T19:47:03.046+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/quinta_dag.py for tasks to queue
+[2023-09-14T19:47:03.047+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:47:03.047+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/quinta_dag.py
+[2023-09-14T19:47:03.056+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:47:03.055+0000] {taskmixin.py:205} WARNING - Dependency <Task(BashOperator): task2>, task4 already registered for DAG: quinta_dag
+[2023-09-14T19:47:03.056+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:47:03.056+0000] {taskmixin.py:205} WARNING - Dependency <Task(BashOperator): task4>, task2 already registered for DAG: quinta_dag
+[2023-09-14T19:47:03.062+0000] {processor.py:753} INFO - DAG(s) dict_keys(['quinta_dag']) retrieved from /opt/airflow/dags/quinta_dag.py
+[2023-09-14T19:47:03.075+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:47:03.075+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-09-14T19:47:03.101+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:47:03.101+0000] {dag.py:3441} INFO - Setting next_dagrun for quinta_dag to None, run_after=None
+[2023-09-14T19:47:03.123+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/quinta_dag.py took 0.081 seconds
+[2023-09-14T19:47:08.298+0000] {processor.py:153} INFO - Started process (PID=12673) to work on /opt/airflow/dags/quinta_dag.py
+[2023-09-14T19:47:08.300+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/quinta_dag.py for tasks to queue
+[2023-09-14T19:47:08.301+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:47:08.301+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/quinta_dag.py
+[2023-09-14T19:47:08.309+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:47:08.309+0000] {taskmixin.py:205} WARNING - Dependency <Task(BashOperator): task2>, task4 already registered for DAG: quinta_dag
+[2023-09-14T19:47:08.309+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:47:08.309+0000] {taskmixin.py:205} WARNING - Dependency <Task(BashOperator): task4>, task2 already registered for DAG: quinta_dag
+[2023-09-14T19:47:08.315+0000] {processor.py:753} INFO - DAG(s) dict_keys(['quinta_dag']) retrieved from /opt/airflow/dags/quinta_dag.py
+[2023-09-14T19:47:08.328+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:47:08.327+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-09-14T19:47:08.353+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:47:08.353+0000] {dag.py:3441} INFO - Setting next_dagrun for quinta_dag to None, run_after=None
+[2023-09-14T19:47:08.377+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/quinta_dag.py took 0.082 seconds
+[2023-09-14T19:47:13.663+0000] {processor.py:153} INFO - Started process (PID=12692) to work on /opt/airflow/dags/quinta_dag.py
+[2023-09-14T19:47:13.664+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/quinta_dag.py for tasks to queue
+[2023-09-14T19:47:13.665+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:47:13.664+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/quinta_dag.py
+[2023-09-14T19:47:13.698+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:47:13.698+0000] {taskmixin.py:205} WARNING - Dependency <Task(BashOperator): task2>, task4 already registered for DAG: quinta_dag
+[2023-09-14T19:47:13.698+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:47:13.698+0000] {taskmixin.py:205} WARNING - Dependency <Task(BashOperator): task4>, task2 already registered for DAG: quinta_dag
+[2023-09-14T19:47:13.704+0000] {processor.py:753} INFO - DAG(s) dict_keys(['quinta_dag']) retrieved from /opt/airflow/dags/quinta_dag.py
+[2023-09-14T19:47:13.719+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:47:13.718+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-09-14T19:47:13.746+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:47:13.746+0000] {dag.py:3441} INFO - Setting next_dagrun for quinta_dag to None, run_after=None
+[2023-09-14T19:47:13.771+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/quinta_dag.py took 0.111 seconds
+[2023-09-14T19:47:18.862+0000] {processor.py:153} INFO - Started process (PID=12697) to work on /opt/airflow/dags/quinta_dag.py
+[2023-09-14T19:47:18.865+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/quinta_dag.py for tasks to queue
+[2023-09-14T19:47:18.866+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:47:18.866+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/quinta_dag.py
+[2023-09-14T19:47:18.877+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:47:18.877+0000] {taskmixin.py:205} WARNING - Dependency <Task(BashOperator): task2>, task4 already registered for DAG: quinta_dag
+[2023-09-14T19:47:18.878+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:47:18.878+0000] {taskmixin.py:205} WARNING - Dependency <Task(BashOperator): task4>, task2 already registered for DAG: quinta_dag
+[2023-09-14T19:47:18.884+0000] {processor.py:753} INFO - DAG(s) dict_keys(['quinta_dag']) retrieved from /opt/airflow/dags/quinta_dag.py
+[2023-09-14T19:47:18.915+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:47:18.914+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-09-14T19:47:18.945+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:47:18.945+0000] {dag.py:3441} INFO - Setting next_dagrun for quinta_dag to None, run_after=None
+[2023-09-14T19:47:18.968+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/quinta_dag.py took 0.110 seconds
+[2023-09-14T19:47:24.113+0000] {processor.py:153} INFO - Started process (PID=12702) to work on /opt/airflow/dags/quinta_dag.py
+[2023-09-14T19:47:24.113+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/quinta_dag.py for tasks to queue
+[2023-09-14T19:47:24.114+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:47:24.114+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/quinta_dag.py
+[2023-09-14T19:47:24.122+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:47:24.122+0000] {taskmixin.py:205} WARNING - Dependency <Task(BashOperator): task2>, task4 already registered for DAG: quinta_dag
+[2023-09-14T19:47:24.123+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:47:24.123+0000] {taskmixin.py:205} WARNING - Dependency <Task(BashOperator): task4>, task2 already registered for DAG: quinta_dag
+[2023-09-14T19:47:24.128+0000] {processor.py:753} INFO - DAG(s) dict_keys(['quinta_dag']) retrieved from /opt/airflow/dags/quinta_dag.py
+[2023-09-14T19:47:24.152+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:47:24.152+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-09-14T19:47:24.177+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:47:24.177+0000] {dag.py:3441} INFO - Setting next_dagrun for quinta_dag to None, run_after=None
+[2023-09-14T19:47:24.199+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/quinta_dag.py took 0.089 seconds
+[2023-09-14T19:47:29.372+0000] {processor.py:153} INFO - Started process (PID=12721) to work on /opt/airflow/dags/quinta_dag.py
+[2023-09-14T19:47:29.375+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/quinta_dag.py for tasks to queue
+[2023-09-14T19:47:29.376+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:47:29.376+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/quinta_dag.py
+[2023-09-14T19:47:29.397+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:47:29.397+0000] {taskmixin.py:205} WARNING - Dependency <Task(BashOperator): task2>, task4 already registered for DAG: quinta_dag
+[2023-09-14T19:47:29.397+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:47:29.397+0000] {taskmixin.py:205} WARNING - Dependency <Task(BashOperator): task4>, task2 already registered for DAG: quinta_dag
+[2023-09-14T19:47:29.404+0000] {processor.py:753} INFO - DAG(s) dict_keys(['quinta_dag']) retrieved from /opt/airflow/dags/quinta_dag.py
+[2023-09-14T19:47:29.427+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:47:29.427+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-09-14T19:47:29.452+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:47:29.452+0000] {dag.py:3441} INFO - Setting next_dagrun for quinta_dag to None, run_after=None
+[2023-09-14T19:47:29.475+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/quinta_dag.py took 0.108 seconds
+[2023-09-14T19:47:30.496+0000] {processor.py:153} INFO - Started process (PID=12724) to work on /opt/airflow/dags/quinta_dag.py
+[2023-09-14T19:47:30.496+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/quinta_dag.py for tasks to queue
+[2023-09-14T19:47:30.497+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:47:30.497+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/quinta_dag.py
+[2023-09-14T19:47:30.506+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:47:30.506+0000] {taskmixin.py:205} WARNING - Dependency <Task(BashOperator): task2>, task4 already registered for DAG: quinta_dag
+[2023-09-14T19:47:30.507+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:47:30.507+0000] {taskmixin.py:205} WARNING - Dependency <Task(BashOperator): task4>, task2 already registered for DAG: quinta_dag
+[2023-09-14T19:47:30.512+0000] {processor.py:753} INFO - DAG(s) dict_keys(['quinta_dag']) retrieved from /opt/airflow/dags/quinta_dag.py
+[2023-09-14T19:47:30.577+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:47:30.577+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-09-14T19:47:30.601+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:47:30.601+0000] {dag.py:3441} INFO - Setting next_dagrun for quinta_dag to None, run_after=None
+[2023-09-14T19:47:30.627+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/quinta_dag.py took 0.134 seconds
+[2023-09-14T19:47:35.831+0000] {processor.py:153} INFO - Started process (PID=12729) to work on /opt/airflow/dags/quinta_dag.py
+[2023-09-14T19:47:35.832+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/quinta_dag.py for tasks to queue
+[2023-09-14T19:47:35.832+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:47:35.832+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/quinta_dag.py
+[2023-09-14T19:47:35.840+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:47:35.840+0000] {taskmixin.py:205} WARNING - Dependency <Task(BashOperator): task2>, task4 already registered for DAG: quinta_dag
+[2023-09-14T19:47:35.840+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:47:35.840+0000] {taskmixin.py:205} WARNING - Dependency <Task(BashOperator): task4>, task2 already registered for DAG: quinta_dag
+[2023-09-14T19:47:35.846+0000] {processor.py:753} INFO - DAG(s) dict_keys(['quinta_dag']) retrieved from /opt/airflow/dags/quinta_dag.py
+[2023-09-14T19:47:35.857+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:47:35.857+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-09-14T19:47:35.881+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:47:35.881+0000] {dag.py:3441} INFO - Setting next_dagrun for quinta_dag to None, run_after=None
+[2023-09-14T19:47:35.901+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/quinta_dag.py took 0.073 seconds
+[2023-09-14T19:47:41.065+0000] {processor.py:153} INFO - Started process (PID=12748) to work on /opt/airflow/dags/quinta_dag.py
+[2023-09-14T19:47:41.066+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/quinta_dag.py for tasks to queue
+[2023-09-14T19:47:41.066+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:47:41.066+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/quinta_dag.py
+[2023-09-14T19:47:41.076+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:47:41.075+0000] {taskmixin.py:205} WARNING - Dependency <Task(BashOperator): task2>, task4 already registered for DAG: quinta_dag
+[2023-09-14T19:47:41.076+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:47:41.076+0000] {taskmixin.py:205} WARNING - Dependency <Task(BashOperator): task4>, task2 already registered for DAG: quinta_dag
+[2023-09-14T19:47:41.083+0000] {processor.py:753} INFO - DAG(s) dict_keys(['quinta_dag']) retrieved from /opt/airflow/dags/quinta_dag.py
+[2023-09-14T19:47:41.097+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:47:41.097+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-09-14T19:47:41.123+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:47:41.123+0000] {dag.py:3441} INFO - Setting next_dagrun for quinta_dag to None, run_after=None
+[2023-09-14T19:47:41.146+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/quinta_dag.py took 0.085 seconds
+[2023-09-14T19:47:46.305+0000] {processor.py:153} INFO - Started process (PID=12753) to work on /opt/airflow/dags/quinta_dag.py
+[2023-09-14T19:47:46.306+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/quinta_dag.py for tasks to queue
+[2023-09-14T19:47:46.306+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:47:46.306+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/quinta_dag.py
+[2023-09-14T19:47:46.314+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:47:46.314+0000] {taskmixin.py:205} WARNING - Dependency <Task(BashOperator): task2>, task4 already registered for DAG: quinta_dag
+[2023-09-14T19:47:46.314+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:47:46.314+0000] {taskmixin.py:205} WARNING - Dependency <Task(BashOperator): task4>, task2 already registered for DAG: quinta_dag
+[2023-09-14T19:47:46.320+0000] {processor.py:753} INFO - DAG(s) dict_keys(['quinta_dag']) retrieved from /opt/airflow/dags/quinta_dag.py
+[2023-09-14T19:47:46.332+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:47:46.332+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-09-14T19:47:46.356+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:47:46.356+0000] {dag.py:3441} INFO - Setting next_dagrun for quinta_dag to None, run_after=None
+[2023-09-14T19:47:46.380+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/quinta_dag.py took 0.078 seconds
+[2023-09-14T19:47:47.318+0000] {processor.py:153} INFO - Started process (PID=12754) to work on /opt/airflow/dags/quinta_dag.py
+[2023-09-14T19:47:47.319+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/quinta_dag.py for tasks to queue
+[2023-09-14T19:47:47.319+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:47:47.319+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/quinta_dag.py
+[2023-09-14T19:47:47.327+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:47:47.327+0000] {taskmixin.py:205} WARNING - Dependency <Task(BashOperator): task2>, task4 already registered for DAG: quinta_dag
+[2023-09-14T19:47:47.328+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:47:47.328+0000] {taskmixin.py:205} WARNING - Dependency <Task(BashOperator): task4>, task2 already registered for DAG: quinta_dag
+[2023-09-14T19:47:47.333+0000] {processor.py:753} INFO - DAG(s) dict_keys(['quinta_dag']) retrieved from /opt/airflow/dags/quinta_dag.py
+[2023-09-14T19:47:47.346+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:47:47.345+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-09-14T19:47:47.371+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:47:47.371+0000] {dag.py:3441} INFO - Setting next_dagrun for quinta_dag to None, run_after=None
+[2023-09-14T19:47:47.394+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/quinta_dag.py took 0.080 seconds
+[2023-09-14T19:47:52.561+0000] {processor.py:153} INFO - Started process (PID=12773) to work on /opt/airflow/dags/quinta_dag.py
+[2023-09-14T19:47:52.562+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/quinta_dag.py for tasks to queue
+[2023-09-14T19:47:52.563+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:47:52.563+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/quinta_dag.py
+[2023-09-14T19:47:52.571+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:47:52.570+0000] {taskmixin.py:205} WARNING - Dependency <Task(BashOperator): task2>, task4 already registered for DAG: quinta_dag
+[2023-09-14T19:47:52.571+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:47:52.571+0000] {taskmixin.py:205} WARNING - Dependency <Task(BashOperator): task4>, task2 already registered for DAG: quinta_dag
+[2023-09-14T19:47:52.577+0000] {processor.py:753} INFO - DAG(s) dict_keys(['quinta_dag']) retrieved from /opt/airflow/dags/quinta_dag.py
+[2023-09-14T19:47:52.589+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:47:52.589+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-09-14T19:47:52.616+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:47:52.616+0000] {dag.py:3441} INFO - Setting next_dagrun for quinta_dag to None, run_after=None
+[2023-09-14T19:47:52.636+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/quinta_dag.py took 0.078 seconds
+[2023-09-14T19:47:57.790+0000] {processor.py:153} INFO - Started process (PID=12778) to work on /opt/airflow/dags/quinta_dag.py
+[2023-09-14T19:47:57.790+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/quinta_dag.py for tasks to queue
+[2023-09-14T19:47:57.791+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:47:57.791+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/quinta_dag.py
+[2023-09-14T19:47:57.798+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:47:57.798+0000] {taskmixin.py:205} WARNING - Dependency <Task(BashOperator): task2>, task4 already registered for DAG: quinta_dag
+[2023-09-14T19:47:57.799+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:47:57.798+0000] {taskmixin.py:205} WARNING - Dependency <Task(BashOperator): task4>, task2 already registered for DAG: quinta_dag
+[2023-09-14T19:47:57.805+0000] {processor.py:753} INFO - DAG(s) dict_keys(['quinta_dag']) retrieved from /opt/airflow/dags/quinta_dag.py
+[2023-09-14T19:47:57.817+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:47:57.817+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-09-14T19:47:57.843+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:47:57.843+0000] {dag.py:3441} INFO - Setting next_dagrun for quinta_dag to None, run_after=None
+[2023-09-14T19:47:57.866+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/quinta_dag.py took 0.081 seconds
+[2023-09-14T19:48:03.022+0000] {processor.py:153} INFO - Started process (PID=12792) to work on /opt/airflow/dags/quinta_dag.py
+[2023-09-14T19:48:03.023+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/quinta_dag.py for tasks to queue
+[2023-09-14T19:48:03.023+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:48:03.023+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/quinta_dag.py
+[2023-09-14T19:48:03.032+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:48:03.032+0000] {taskmixin.py:205} WARNING - Dependency <Task(BashOperator): task2>, task4 already registered for DAG: quinta_dag
+[2023-09-14T19:48:03.033+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:48:03.033+0000] {taskmixin.py:205} WARNING - Dependency <Task(BashOperator): task4>, task2 already registered for DAG: quinta_dag
+[2023-09-14T19:48:03.040+0000] {processor.py:753} INFO - DAG(s) dict_keys(['quinta_dag']) retrieved from /opt/airflow/dags/quinta_dag.py
+[2023-09-14T19:48:03.064+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:48:03.064+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-09-14T19:48:03.101+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:48:03.101+0000] {dag.py:3441} INFO - Setting next_dagrun for quinta_dag to None, run_after=None
+[2023-09-14T19:48:03.187+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/quinta_dag.py took 0.169 seconds
+[2023-09-14T19:48:08.345+0000] {processor.py:153} INFO - Started process (PID=12802) to work on /opt/airflow/dags/quinta_dag.py
+[2023-09-14T19:48:08.346+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/quinta_dag.py for tasks to queue
+[2023-09-14T19:48:08.347+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:48:08.346+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/quinta_dag.py
+[2023-09-14T19:48:08.355+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:48:08.355+0000] {taskmixin.py:205} WARNING - Dependency <Task(BashOperator): task2>, task4 already registered for DAG: quinta_dag
+[2023-09-14T19:48:08.356+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:48:08.355+0000] {taskmixin.py:205} WARNING - Dependency <Task(BashOperator): task4>, task2 already registered for DAG: quinta_dag
+[2023-09-14T19:48:08.362+0000] {processor.py:753} INFO - DAG(s) dict_keys(['quinta_dag']) retrieved from /opt/airflow/dags/quinta_dag.py
+[2023-09-14T19:48:08.387+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:48:08.387+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-09-14T19:48:08.412+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:48:08.411+0000] {dag.py:3441} INFO - Setting next_dagrun for quinta_dag to None, run_after=None
+[2023-09-14T19:48:08.435+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/quinta_dag.py took 0.093 seconds
+[2023-09-14T19:48:13.579+0000] {processor.py:153} INFO - Started process (PID=12807) to work on /opt/airflow/dags/quinta_dag.py
+[2023-09-14T19:48:13.580+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/quinta_dag.py for tasks to queue
+[2023-09-14T19:48:13.581+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:48:13.580+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/quinta_dag.py
+[2023-09-14T19:48:13.589+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:48:13.589+0000] {taskmixin.py:205} WARNING - Dependency <Task(BashOperator): task2>, task4 already registered for DAG: quinta_dag
+[2023-09-14T19:48:13.589+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:48:13.589+0000] {taskmixin.py:205} WARNING - Dependency <Task(BashOperator): task4>, task2 already registered for DAG: quinta_dag
+[2023-09-14T19:48:13.596+0000] {processor.py:753} INFO - DAG(s) dict_keys(['quinta_dag']) retrieved from /opt/airflow/dags/quinta_dag.py
+[2023-09-14T19:48:13.623+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:48:13.622+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-09-14T19:48:13.647+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:48:13.647+0000] {dag.py:3441} INFO - Setting next_dagrun for quinta_dag to None, run_after=None
+[2023-09-14T19:48:13.668+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/quinta_dag.py took 0.093 seconds
+[2023-09-14T19:48:18.820+0000] {processor.py:153} INFO - Started process (PID=12826) to work on /opt/airflow/dags/quinta_dag.py
+[2023-09-14T19:48:18.821+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/quinta_dag.py for tasks to queue
+[2023-09-14T19:48:18.822+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:48:18.822+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/quinta_dag.py
+[2023-09-14T19:48:18.832+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:48:18.832+0000] {taskmixin.py:205} WARNING - Dependency <Task(BashOperator): task2>, task4 already registered for DAG: quinta_dag
+[2023-09-14T19:48:18.832+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:48:18.832+0000] {taskmixin.py:205} WARNING - Dependency <Task(BashOperator): task4>, task2 already registered for DAG: quinta_dag
+[2023-09-14T19:48:18.839+0000] {processor.py:753} INFO - DAG(s) dict_keys(['quinta_dag']) retrieved from /opt/airflow/dags/quinta_dag.py
+[2023-09-14T19:48:18.864+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:48:18.864+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-09-14T19:48:18.889+0000] {logging_mixin.py:137} INFO - [2023-09-14T19:48:18.889+0000] {dag.py:3441} INFO - Setting next_dagrun for quinta_dag to None, run_after=None
+[2023-09-14T19:48:18.912+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/quinta_dag.py took 0.095 seconds
