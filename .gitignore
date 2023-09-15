@@ -1,3 +1,5 @@
-.env 
-plugins 
-logs
+.docker-compose.yaml 
+.plugins 
+/logs
+dags/envio_teste.py 
+dags/email.py
