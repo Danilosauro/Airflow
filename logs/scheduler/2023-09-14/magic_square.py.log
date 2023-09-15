@@ -9712,3 +9712,304 @@
 [2023-09-14T20:18:06.959+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:18:06.958+0000] {dag.py:2690} INFO - Sync 1 DAGs
 [2023-09-14T20:18:06.982+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:18:06.982+0000] {dag.py:3441} INFO - Setting next_dagrun for magic_saquare to None, run_after=None
 [2023-09-14T20:18:06.999+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/magic_square.py took 0.086 seconds
+[2023-09-14T20:18:12.278+0000] {processor.py:153} INFO - Started process (PID=17288) to work on /opt/airflow/dags/magic_square.py
+[2023-09-14T20:18:12.280+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/magic_square.py for tasks to queue
+[2023-09-14T20:18:12.281+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:18:12.281+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/magic_square.py
+[2023-09-14T20:18:12.295+0000] {processor.py:753} INFO - DAG(s) dict_keys(['magic_saquare']) retrieved from /opt/airflow/dags/magic_square.py
+[2023-09-14T20:18:12.320+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:18:12.319+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-09-14T20:18:12.343+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:18:12.342+0000] {dag.py:3441} INFO - Setting next_dagrun for magic_saquare to None, run_after=None
+[2023-09-14T20:18:12.363+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/magic_square.py took 0.088 seconds
+[2023-09-14T20:18:17.578+0000] {processor.py:153} INFO - Started process (PID=17296) to work on /opt/airflow/dags/magic_square.py
+[2023-09-14T20:18:17.578+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/magic_square.py for tasks to queue
+[2023-09-14T20:18:17.579+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:18:17.579+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/magic_square.py
+[2023-09-14T20:18:17.592+0000] {processor.py:753} INFO - DAG(s) dict_keys(['magic_saquare']) retrieved from /opt/airflow/dags/magic_square.py
+[2023-09-14T20:18:17.615+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:18:17.615+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-09-14T20:18:17.638+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:18:17.638+0000] {dag.py:3441} INFO - Setting next_dagrun for magic_saquare to None, run_after=None
+[2023-09-14T20:18:17.656+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/magic_square.py took 0.081 seconds
+[2023-09-14T20:18:22.976+0000] {processor.py:153} INFO - Started process (PID=17318) to work on /opt/airflow/dags/magic_square.py
+[2023-09-14T20:18:22.978+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/magic_square.py for tasks to queue
+[2023-09-14T20:18:22.979+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:18:22.979+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/magic_square.py
+[2023-09-14T20:18:22.993+0000] {processor.py:753} INFO - DAG(s) dict_keys(['magic_saquare']) retrieved from /opt/airflow/dags/magic_square.py
+[2023-09-14T20:18:23.016+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:18:23.016+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-09-14T20:18:23.044+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:18:23.044+0000] {dag.py:3441} INFO - Setting next_dagrun for magic_saquare to None, run_after=None
+[2023-09-14T20:18:23.069+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/magic_square.py took 0.096 seconds
+[2023-09-14T20:18:28.239+0000] {processor.py:153} INFO - Started process (PID=17326) to work on /opt/airflow/dags/magic_square.py
+[2023-09-14T20:18:28.240+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/magic_square.py for tasks to queue
+[2023-09-14T20:18:28.240+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:18:28.240+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/magic_square.py
+[2023-09-14T20:18:28.253+0000] {processor.py:753} INFO - DAG(s) dict_keys(['magic_saquare']) retrieved from /opt/airflow/dags/magic_square.py
+[2023-09-14T20:18:28.277+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:18:28.277+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-09-14T20:18:28.301+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:18:28.301+0000] {dag.py:3441} INFO - Setting next_dagrun for magic_saquare to None, run_after=None
+[2023-09-14T20:18:28.321+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/magic_square.py took 0.085 seconds
+[2023-09-14T20:18:33.547+0000] {processor.py:153} INFO - Started process (PID=17341) to work on /opt/airflow/dags/magic_square.py
+[2023-09-14T20:18:33.548+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/magic_square.py for tasks to queue
+[2023-09-14T20:18:33.549+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:18:33.549+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/magic_square.py
+[2023-09-14T20:18:33.562+0000] {processor.py:753} INFO - DAG(s) dict_keys(['magic_saquare']) retrieved from /opt/airflow/dags/magic_square.py
+[2023-09-14T20:18:33.586+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:18:33.586+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-09-14T20:18:33.612+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:18:33.612+0000] {dag.py:3441} INFO - Setting next_dagrun for magic_saquare to None, run_after=None
+[2023-09-14T20:18:33.634+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/magic_square.py took 0.090 seconds
+[2023-09-14T20:18:38.885+0000] {processor.py:153} INFO - Started process (PID=17356) to work on /opt/airflow/dags/magic_square.py
+[2023-09-14T20:18:38.886+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/magic_square.py for tasks to queue
+[2023-09-14T20:18:38.887+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:18:38.887+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/magic_square.py
+[2023-09-14T20:18:38.900+0000] {processor.py:753} INFO - DAG(s) dict_keys(['magic_saquare']) retrieved from /opt/airflow/dags/magic_square.py
+[2023-09-14T20:18:38.924+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:18:38.924+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-09-14T20:18:38.948+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:18:38.948+0000] {dag.py:3441} INFO - Setting next_dagrun for magic_saquare to None, run_after=None
+[2023-09-14T20:18:38.965+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/magic_square.py took 0.083 seconds
+[2023-09-14T20:18:44.193+0000] {processor.py:153} INFO - Started process (PID=17364) to work on /opt/airflow/dags/magic_square.py
+[2023-09-14T20:18:44.194+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/magic_square.py for tasks to queue
+[2023-09-14T20:18:44.195+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:18:44.194+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/magic_square.py
+[2023-09-14T20:18:44.207+0000] {processor.py:753} INFO - DAG(s) dict_keys(['magic_saquare']) retrieved from /opt/airflow/dags/magic_square.py
+[2023-09-14T20:18:44.234+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:18:44.233+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-09-14T20:18:44.261+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:18:44.260+0000] {dag.py:3441} INFO - Setting next_dagrun for magic_saquare to None, run_after=None
+[2023-09-14T20:18:44.280+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/magic_square.py took 0.090 seconds
+[2023-09-14T20:18:49.528+0000] {processor.py:153} INFO - Started process (PID=17386) to work on /opt/airflow/dags/magic_square.py
+[2023-09-14T20:18:49.530+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/magic_square.py for tasks to queue
+[2023-09-14T20:18:49.531+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:18:49.531+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/magic_square.py
+[2023-09-14T20:18:49.544+0000] {processor.py:753} INFO - DAG(s) dict_keys(['magic_saquare']) retrieved from /opt/airflow/dags/magic_square.py
+[2023-09-14T20:18:49.567+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:18:49.567+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-09-14T20:18:49.591+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:18:49.591+0000] {dag.py:3441} INFO - Setting next_dagrun for magic_saquare to None, run_after=None
+[2023-09-14T20:18:49.610+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/magic_square.py took 0.086 seconds
+[2023-09-14T20:18:54.833+0000] {processor.py:153} INFO - Started process (PID=17394) to work on /opt/airflow/dags/magic_square.py
+[2023-09-14T20:18:54.834+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/magic_square.py for tasks to queue
+[2023-09-14T20:18:54.835+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:18:54.835+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/magic_square.py
+[2023-09-14T20:18:54.848+0000] {processor.py:753} INFO - DAG(s) dict_keys(['magic_saquare']) retrieved from /opt/airflow/dags/magic_square.py
+[2023-09-14T20:18:54.872+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:18:54.872+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-09-14T20:18:54.895+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:18:54.895+0000] {dag.py:3441} INFO - Setting next_dagrun for magic_saquare to None, run_after=None
+[2023-09-14T20:18:54.914+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/magic_square.py took 0.084 seconds
+[2023-09-14T20:19:00.187+0000] {processor.py:153} INFO - Started process (PID=17416) to work on /opt/airflow/dags/magic_square.py
+[2023-09-14T20:19:00.188+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/magic_square.py for tasks to queue
+[2023-09-14T20:19:00.189+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:19:00.189+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/magic_square.py
+[2023-09-14T20:19:00.202+0000] {processor.py:753} INFO - DAG(s) dict_keys(['magic_saquare']) retrieved from /opt/airflow/dags/magic_square.py
+[2023-09-14T20:19:00.226+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:19:00.226+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-09-14T20:19:00.249+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:19:00.249+0000] {dag.py:3441} INFO - Setting next_dagrun for magic_saquare to None, run_after=None
+[2023-09-14T20:19:00.268+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/magic_square.py took 0.083 seconds
+[2023-09-14T20:19:05.496+0000] {processor.py:153} INFO - Started process (PID=17424) to work on /opt/airflow/dags/magic_square.py
+[2023-09-14T20:19:05.499+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/magic_square.py for tasks to queue
+[2023-09-14T20:19:05.499+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:19:05.499+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/magic_square.py
+[2023-09-14T20:19:05.512+0000] {processor.py:753} INFO - DAG(s) dict_keys(['magic_saquare']) retrieved from /opt/airflow/dags/magic_square.py
+[2023-09-14T20:19:05.536+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:19:05.535+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-09-14T20:19:05.561+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:19:05.561+0000] {dag.py:3441} INFO - Setting next_dagrun for magic_saquare to None, run_after=None
+[2023-09-14T20:19:05.581+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/magic_square.py took 0.088 seconds
+[2023-09-14T20:19:10.840+0000] {processor.py:153} INFO - Started process (PID=17441) to work on /opt/airflow/dags/magic_square.py
+[2023-09-14T20:19:10.842+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/magic_square.py for tasks to queue
+[2023-09-14T20:19:10.843+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:19:10.843+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/magic_square.py
+[2023-09-14T20:19:10.856+0000] {processor.py:753} INFO - DAG(s) dict_keys(['magic_saquare']) retrieved from /opt/airflow/dags/magic_square.py
+[2023-09-14T20:19:10.879+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:19:10.879+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-09-14T20:19:10.904+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:19:10.904+0000] {dag.py:3441} INFO - Setting next_dagrun for magic_saquare to None, run_after=None
+[2023-09-14T20:19:10.925+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/magic_square.py took 0.088 seconds
+[2023-09-14T20:19:16.144+0000] {processor.py:153} INFO - Started process (PID=17454) to work on /opt/airflow/dags/magic_square.py
+[2023-09-14T20:19:16.144+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/magic_square.py for tasks to queue
+[2023-09-14T20:19:16.145+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:19:16.145+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/magic_square.py
+[2023-09-14T20:19:16.158+0000] {processor.py:753} INFO - DAG(s) dict_keys(['magic_saquare']) retrieved from /opt/airflow/dags/magic_square.py
+[2023-09-14T20:19:16.182+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:19:16.182+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-09-14T20:19:16.205+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:19:16.205+0000] {dag.py:3441} INFO - Setting next_dagrun for magic_saquare to None, run_after=None
+[2023-09-14T20:19:16.224+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/magic_square.py took 0.084 seconds
+[2023-09-14T20:19:21.520+0000] {processor.py:153} INFO - Started process (PID=17462) to work on /opt/airflow/dags/magic_square.py
+[2023-09-14T20:19:21.522+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/magic_square.py for tasks to queue
+[2023-09-14T20:19:21.523+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:19:21.523+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/magic_square.py
+[2023-09-14T20:19:21.537+0000] {processor.py:753} INFO - DAG(s) dict_keys(['magic_saquare']) retrieved from /opt/airflow/dags/magic_square.py
+[2023-09-14T20:19:21.560+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:19:21.560+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-09-14T20:19:21.584+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:19:21.583+0000] {dag.py:3441} INFO - Setting next_dagrun for magic_saquare to None, run_after=None
+[2023-09-14T20:19:21.622+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/magic_square.py took 0.105 seconds
+[2023-09-14T20:19:26.861+0000] {processor.py:153} INFO - Started process (PID=17484) to work on /opt/airflow/dags/magic_square.py
+[2023-09-14T20:19:26.862+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/magic_square.py for tasks to queue
+[2023-09-14T20:19:26.863+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:19:26.863+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/magic_square.py
+[2023-09-14T20:19:26.875+0000] {processor.py:753} INFO - DAG(s) dict_keys(['magic_saquare']) retrieved from /opt/airflow/dags/magic_square.py
+[2023-09-14T20:19:26.898+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:19:26.898+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-09-14T20:19:26.921+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:19:26.921+0000] {dag.py:3441} INFO - Setting next_dagrun for magic_saquare to None, run_after=None
+[2023-09-14T20:19:26.940+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/magic_square.py took 0.082 seconds
+[2023-09-14T20:19:32.221+0000] {processor.py:153} INFO - Started process (PID=17492) to work on /opt/airflow/dags/magic_square.py
+[2023-09-14T20:19:32.223+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/magic_square.py for tasks to queue
+[2023-09-14T20:19:32.224+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:19:32.224+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/magic_square.py
+[2023-09-14T20:19:32.237+0000] {processor.py:753} INFO - DAG(s) dict_keys(['magic_saquare']) retrieved from /opt/airflow/dags/magic_square.py
+[2023-09-14T20:19:32.261+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:19:32.261+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-09-14T20:19:32.285+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:19:32.284+0000] {dag.py:3441} INFO - Setting next_dagrun for magic_saquare to None, run_after=None
+[2023-09-14T20:19:32.304+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/magic_square.py took 0.087 seconds
+[2023-09-14T20:19:37.722+0000] {processor.py:153} INFO - Started process (PID=17514) to work on /opt/airflow/dags/magic_square.py
+[2023-09-14T20:19:37.723+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/magic_square.py for tasks to queue
+[2023-09-14T20:19:37.723+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:19:37.723+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/magic_square.py
+[2023-09-14T20:19:37.740+0000] {processor.py:753} INFO - DAG(s) dict_keys(['magic_saquare']) retrieved from /opt/airflow/dags/magic_square.py
+[2023-09-14T20:19:37.766+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:19:37.766+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-09-14T20:19:37.794+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:19:37.794+0000] {dag.py:3441} INFO - Setting next_dagrun for magic_saquare to None, run_after=None
+[2023-09-14T20:19:37.816+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/magic_square.py took 0.097 seconds
+[2023-09-14T20:19:42.980+0000] {processor.py:153} INFO - Started process (PID=17522) to work on /opt/airflow/dags/magic_square.py
+[2023-09-14T20:19:42.981+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/magic_square.py for tasks to queue
+[2023-09-14T20:19:42.982+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:19:42.982+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/magic_square.py
+[2023-09-14T20:19:42.995+0000] {processor.py:753} INFO - DAG(s) dict_keys(['magic_saquare']) retrieved from /opt/airflow/dags/magic_square.py
+[2023-09-14T20:19:43.016+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:19:43.016+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-09-14T20:19:43.039+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:19:43.039+0000] {dag.py:3441} INFO - Setting next_dagrun for magic_saquare to None, run_after=None
+[2023-09-14T20:19:43.056+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/magic_square.py took 0.079 seconds
+[2023-09-14T20:19:48.432+0000] {processor.py:153} INFO - Started process (PID=17543) to work on /opt/airflow/dags/magic_square.py
+[2023-09-14T20:19:48.434+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/magic_square.py for tasks to queue
+[2023-09-14T20:19:48.435+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:19:48.435+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/magic_square.py
+[2023-09-14T20:19:48.449+0000] {processor.py:753} INFO - DAG(s) dict_keys(['magic_saquare']) retrieved from /opt/airflow/dags/magic_square.py
+[2023-09-14T20:19:48.473+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:19:48.473+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-09-14T20:19:48.501+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:19:48.501+0000] {dag.py:3441} INFO - Setting next_dagrun for magic_saquare to None, run_after=None
+[2023-09-14T20:19:48.532+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/magic_square.py took 0.105 seconds
+[2023-09-14T20:19:53.877+0000] {processor.py:153} INFO - Started process (PID=17551) to work on /opt/airflow/dags/magic_square.py
+[2023-09-14T20:19:53.877+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/magic_square.py for tasks to queue
+[2023-09-14T20:19:53.878+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:19:53.878+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/magic_square.py
+[2023-09-14T20:19:53.892+0000] {processor.py:753} INFO - DAG(s) dict_keys(['magic_saquare']) retrieved from /opt/airflow/dags/magic_square.py
+[2023-09-14T20:19:53.915+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:19:53.915+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-09-14T20:19:53.940+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:19:53.940+0000] {dag.py:3441} INFO - Setting next_dagrun for magic_saquare to None, run_after=None
+[2023-09-14T20:19:53.964+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/magic_square.py took 0.091 seconds
+[2023-09-14T20:19:59.307+0000] {processor.py:153} INFO - Started process (PID=17559) to work on /opt/airflow/dags/magic_square.py
+[2023-09-14T20:19:59.310+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/magic_square.py for tasks to queue
+[2023-09-14T20:19:59.310+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:19:59.310+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/magic_square.py
+[2023-09-14T20:19:59.324+0000] {processor.py:753} INFO - DAG(s) dict_keys(['magic_saquare']) retrieved from /opt/airflow/dags/magic_square.py
+[2023-09-14T20:19:59.348+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:19:59.348+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-09-14T20:19:59.378+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:19:59.378+0000] {dag.py:3441} INFO - Setting next_dagrun for magic_saquare to None, run_after=None
+[2023-09-14T20:19:59.407+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/magic_square.py took 0.103 seconds
+[2023-09-14T20:20:04.782+0000] {processor.py:153} INFO - Started process (PID=17582) to work on /opt/airflow/dags/magic_square.py
+[2023-09-14T20:20:04.783+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/magic_square.py for tasks to queue
+[2023-09-14T20:20:04.784+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:20:04.783+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/magic_square.py
+[2023-09-14T20:20:04.798+0000] {processor.py:753} INFO - DAG(s) dict_keys(['magic_saquare']) retrieved from /opt/airflow/dags/magic_square.py
+[2023-09-14T20:20:04.827+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:20:04.827+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-09-14T20:20:04.855+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:20:04.855+0000] {dag.py:3441} INFO - Setting next_dagrun for magic_saquare to None, run_after=None
+[2023-09-14T20:20:04.875+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/magic_square.py took 0.097 seconds
+[2023-09-14T20:20:10.136+0000] {processor.py:153} INFO - Started process (PID=17590) to work on /opt/airflow/dags/magic_square.py
+[2023-09-14T20:20:10.136+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/magic_square.py for tasks to queue
+[2023-09-14T20:20:10.137+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:20:10.137+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/magic_square.py
+[2023-09-14T20:20:10.150+0000] {processor.py:753} INFO - DAG(s) dict_keys(['magic_saquare']) retrieved from /opt/airflow/dags/magic_square.py
+[2023-09-14T20:20:10.176+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:20:10.176+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-09-14T20:20:10.201+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:20:10.201+0000] {dag.py:3441} INFO - Setting next_dagrun for magic_saquare to None, run_after=None
+[2023-09-14T20:20:10.223+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/magic_square.py took 0.090 seconds
+[2023-09-14T20:20:15.572+0000] {processor.py:153} INFO - Started process (PID=17612) to work on /opt/airflow/dags/magic_square.py
+[2023-09-14T20:20:15.572+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/magic_square.py for tasks to queue
+[2023-09-14T20:20:15.573+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:20:15.573+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/magic_square.py
+[2023-09-14T20:20:15.587+0000] {processor.py:753} INFO - DAG(s) dict_keys(['magic_saquare']) retrieved from /opt/airflow/dags/magic_square.py
+[2023-09-14T20:20:15.611+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:20:15.610+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-09-14T20:20:15.634+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:20:15.634+0000] {dag.py:3441} INFO - Setting next_dagrun for magic_saquare to None, run_after=None
+[2023-09-14T20:20:15.655+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/magic_square.py took 0.086 seconds
+[2023-09-14T20:20:20.920+0000] {processor.py:153} INFO - Started process (PID=17620) to work on /opt/airflow/dags/magic_square.py
+[2023-09-14T20:20:20.921+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/magic_square.py for tasks to queue
+[2023-09-14T20:20:20.921+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:20:20.921+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/magic_square.py
+[2023-09-14T20:20:20.936+0000] {processor.py:753} INFO - DAG(s) dict_keys(['magic_saquare']) retrieved from /opt/airflow/dags/magic_square.py
+[2023-09-14T20:20:20.963+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:20:20.963+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-09-14T20:20:20.990+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:20:20.990+0000] {dag.py:3441} INFO - Setting next_dagrun for magic_saquare to None, run_after=None
+[2023-09-14T20:20:21.013+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/magic_square.py took 0.097 seconds
+[2023-09-14T20:20:26.271+0000] {processor.py:153} INFO - Started process (PID=17642) to work on /opt/airflow/dags/magic_square.py
+[2023-09-14T20:20:26.272+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/magic_square.py for tasks to queue
+[2023-09-14T20:20:26.272+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:20:26.272+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/magic_square.py
+[2023-09-14T20:20:26.287+0000] {processor.py:753} INFO - DAG(s) dict_keys(['magic_saquare']) retrieved from /opt/airflow/dags/magic_square.py
+[2023-09-14T20:20:26.312+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:20:26.312+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-09-14T20:20:26.337+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:20:26.336+0000] {dag.py:3441} INFO - Setting next_dagrun for magic_saquare to None, run_after=None
+[2023-09-14T20:20:26.360+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/magic_square.py took 0.093 seconds
+[2023-09-14T20:20:31.701+0000] {processor.py:153} INFO - Started process (PID=17650) to work on /opt/airflow/dags/magic_square.py
+[2023-09-14T20:20:31.703+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/magic_square.py for tasks to queue
+[2023-09-14T20:20:31.704+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:20:31.704+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/magic_square.py
+[2023-09-14T20:20:31.717+0000] {processor.py:753} INFO - DAG(s) dict_keys(['magic_saquare']) retrieved from /opt/airflow/dags/magic_square.py
+[2023-09-14T20:20:31.740+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:20:31.740+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-09-14T20:20:31.763+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:20:31.763+0000] {dag.py:3441} INFO - Setting next_dagrun for magic_saquare to None, run_after=None
+[2023-09-14T20:20:31.784+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/magic_square.py took 0.087 seconds
+[2023-09-14T20:20:37.124+0000] {processor.py:153} INFO - Started process (PID=17667) to work on /opt/airflow/dags/magic_square.py
+[2023-09-14T20:20:37.125+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/magic_square.py for tasks to queue
+[2023-09-14T20:20:37.126+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:20:37.126+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/magic_square.py
+[2023-09-14T20:20:37.141+0000] {processor.py:753} INFO - DAG(s) dict_keys(['magic_saquare']) retrieved from /opt/airflow/dags/magic_square.py
+[2023-09-14T20:20:37.168+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:20:37.168+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-09-14T20:20:37.193+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:20:37.193+0000] {dag.py:3441} INFO - Setting next_dagrun for magic_saquare to None, run_after=None
+[2023-09-14T20:20:37.214+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/magic_square.py took 0.093 seconds
+[2023-09-14T20:20:42.503+0000] {processor.py:153} INFO - Started process (PID=17680) to work on /opt/airflow/dags/magic_square.py
+[2023-09-14T20:20:42.506+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/magic_square.py for tasks to queue
+[2023-09-14T20:20:42.507+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:20:42.507+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/magic_square.py
+[2023-09-14T20:20:42.521+0000] {processor.py:753} INFO - DAG(s) dict_keys(['magic_saquare']) retrieved from /opt/airflow/dags/magic_square.py
+[2023-09-14T20:20:42.546+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:20:42.546+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-09-14T20:20:42.572+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:20:42.572+0000] {dag.py:3441} INFO - Setting next_dagrun for magic_saquare to None, run_after=None
+[2023-09-14T20:20:42.595+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/magic_square.py took 0.095 seconds
+[2023-09-14T20:20:47.927+0000] {processor.py:153} INFO - Started process (PID=17688) to work on /opt/airflow/dags/magic_square.py
+[2023-09-14T20:20:47.928+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/magic_square.py for tasks to queue
+[2023-09-14T20:20:47.928+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:20:47.928+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/magic_square.py
+[2023-09-14T20:20:47.942+0000] {processor.py:753} INFO - DAG(s) dict_keys(['magic_saquare']) retrieved from /opt/airflow/dags/magic_square.py
+[2023-09-14T20:20:47.965+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:20:47.965+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-09-14T20:20:47.988+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:20:47.987+0000] {dag.py:3441} INFO - Setting next_dagrun for magic_saquare to None, run_after=None
+[2023-09-14T20:20:48.007+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/magic_square.py took 0.083 seconds
+[2023-09-14T20:20:53.344+0000] {processor.py:153} INFO - Started process (PID=17711) to work on /opt/airflow/dags/magic_square.py
+[2023-09-14T20:20:53.345+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/magic_square.py for tasks to queue
+[2023-09-14T20:20:53.345+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:20:53.345+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/magic_square.py
+[2023-09-14T20:20:53.360+0000] {processor.py:753} INFO - DAG(s) dict_keys(['magic_saquare']) retrieved from /opt/airflow/dags/magic_square.py
+[2023-09-14T20:20:53.383+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:20:53.383+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-09-14T20:20:53.406+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:20:53.406+0000] {dag.py:3441} INFO - Setting next_dagrun for magic_saquare to None, run_after=None
+[2023-09-14T20:20:53.426+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/magic_square.py took 0.085 seconds
+[2023-09-14T20:20:58.673+0000] {processor.py:153} INFO - Started process (PID=17719) to work on /opt/airflow/dags/magic_square.py
+[2023-09-14T20:20:58.674+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/magic_square.py for tasks to queue
+[2023-09-14T20:20:58.674+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:20:58.674+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/magic_square.py
+[2023-09-14T20:20:58.689+0000] {processor.py:753} INFO - DAG(s) dict_keys(['magic_saquare']) retrieved from /opt/airflow/dags/magic_square.py
+[2023-09-14T20:20:58.713+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:20:58.713+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-09-14T20:20:58.738+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:20:58.737+0000] {dag.py:3441} INFO - Setting next_dagrun for magic_saquare to None, run_after=None
+[2023-09-14T20:20:58.760+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/magic_square.py took 0.091 seconds
+[2023-09-14T20:21:04.122+0000] {processor.py:153} INFO - Started process (PID=17740) to work on /opt/airflow/dags/magic_square.py
+[2023-09-14T20:21:04.124+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/magic_square.py for tasks to queue
+[2023-09-14T20:21:04.125+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:21:04.125+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/magic_square.py
+[2023-09-14T20:21:04.139+0000] {processor.py:753} INFO - DAG(s) dict_keys(['magic_saquare']) retrieved from /opt/airflow/dags/magic_square.py
+[2023-09-14T20:21:04.162+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:21:04.162+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-09-14T20:21:04.187+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:21:04.187+0000] {dag.py:3441} INFO - Setting next_dagrun for magic_saquare to None, run_after=None
+[2023-09-14T20:21:04.210+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/magic_square.py took 0.091 seconds
+[2023-09-14T20:21:09.470+0000] {processor.py:153} INFO - Started process (PID=17748) to work on /opt/airflow/dags/magic_square.py
+[2023-09-14T20:21:09.472+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/magic_square.py for tasks to queue
+[2023-09-14T20:21:09.473+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:21:09.472+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/magic_square.py
+[2023-09-14T20:21:09.486+0000] {processor.py:753} INFO - DAG(s) dict_keys(['magic_saquare']) retrieved from /opt/airflow/dags/magic_square.py
+[2023-09-14T20:21:09.511+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:21:09.510+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-09-14T20:21:09.538+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:21:09.538+0000] {dag.py:3441} INFO - Setting next_dagrun for magic_saquare to None, run_after=None
+[2023-09-14T20:21:09.559+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/magic_square.py took 0.093 seconds
+[2023-09-14T20:21:14.903+0000] {processor.py:153} INFO - Started process (PID=17770) to work on /opt/airflow/dags/magic_square.py
+[2023-09-14T20:21:14.903+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/magic_square.py for tasks to queue
+[2023-09-14T20:21:14.904+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:21:14.904+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/magic_square.py
+[2023-09-14T20:21:14.919+0000] {processor.py:753} INFO - DAG(s) dict_keys(['magic_saquare']) retrieved from /opt/airflow/dags/magic_square.py
+[2023-09-14T20:21:14.943+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:21:14.942+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-09-14T20:21:14.969+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:21:14.969+0000] {dag.py:3441} INFO - Setting next_dagrun for magic_saquare to None, run_after=None
+[2023-09-14T20:21:14.990+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/magic_square.py took 0.091 seconds
+[2023-09-14T20:21:20.247+0000] {processor.py:153} INFO - Started process (PID=17778) to work on /opt/airflow/dags/magic_square.py
+[2023-09-14T20:21:20.250+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/magic_square.py for tasks to queue
+[2023-09-14T20:21:20.251+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:21:20.251+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/magic_square.py
+[2023-09-14T20:21:20.265+0000] {processor.py:753} INFO - DAG(s) dict_keys(['magic_saquare']) retrieved from /opt/airflow/dags/magic_square.py
+[2023-09-14T20:21:20.289+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:21:20.289+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-09-14T20:21:20.317+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:21:20.317+0000] {dag.py:3441} INFO - Setting next_dagrun for magic_saquare to None, run_after=None
+[2023-09-14T20:21:20.339+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/magic_square.py took 0.097 seconds
+[2023-09-14T20:21:25.601+0000] {processor.py:153} INFO - Started process (PID=17796) to work on /opt/airflow/dags/magic_square.py
+[2023-09-14T20:21:25.601+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/magic_square.py for tasks to queue
+[2023-09-14T20:21:25.602+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:21:25.602+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/magic_square.py
+[2023-09-14T20:21:25.615+0000] {processor.py:753} INFO - DAG(s) dict_keys(['magic_saquare']) retrieved from /opt/airflow/dags/magic_square.py
+[2023-09-14T20:21:25.639+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:21:25.639+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-09-14T20:21:25.664+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:21:25.664+0000] {dag.py:3441} INFO - Setting next_dagrun for magic_saquare to None, run_after=None
+[2023-09-14T20:21:25.685+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/magic_square.py took 0.088 seconds
+[2023-09-14T20:21:30.931+0000] {processor.py:153} INFO - Started process (PID=17809) to work on /opt/airflow/dags/magic_square.py
+[2023-09-14T20:21:30.933+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/magic_square.py for tasks to queue
+[2023-09-14T20:21:30.934+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:21:30.934+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/magic_square.py
+[2023-09-14T20:21:30.948+0000] {processor.py:753} INFO - DAG(s) dict_keys(['magic_saquare']) retrieved from /opt/airflow/dags/magic_square.py
+[2023-09-14T20:21:30.972+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:21:30.972+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-09-14T20:21:30.997+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:21:30.996+0000] {dag.py:3441} INFO - Setting next_dagrun for magic_saquare to None, run_after=None
+[2023-09-14T20:21:31.023+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/magic_square.py took 0.095 seconds
+[2023-09-14T20:21:36.279+0000] {processor.py:153} INFO - Started process (PID=17817) to work on /opt/airflow/dags/magic_square.py
+[2023-09-14T20:21:36.280+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/magic_square.py for tasks to queue
+[2023-09-14T20:21:36.280+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:21:36.280+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/magic_square.py
+[2023-09-14T20:21:36.294+0000] {processor.py:753} INFO - DAG(s) dict_keys(['magic_saquare']) retrieved from /opt/airflow/dags/magic_square.py
+[2023-09-14T20:21:36.317+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:21:36.317+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-09-14T20:21:36.341+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:21:36.341+0000] {dag.py:3441} INFO - Setting next_dagrun for magic_saquare to None, run_after=None
+[2023-09-14T20:21:36.361+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/magic_square.py took 0.086 seconds
+[2023-09-14T20:21:41.723+0000] {processor.py:153} INFO - Started process (PID=17839) to work on /opt/airflow/dags/magic_square.py
+[2023-09-14T20:21:41.725+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/magic_square.py for tasks to queue
+[2023-09-14T20:21:41.726+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:21:41.726+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/magic_square.py
+[2023-09-14T20:21:41.739+0000] {processor.py:753} INFO - DAG(s) dict_keys(['magic_saquare']) retrieved from /opt/airflow/dags/magic_square.py
+[2023-09-14T20:21:41.763+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:21:41.762+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-09-14T20:21:41.786+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:21:41.786+0000] {dag.py:3441} INFO - Setting next_dagrun for magic_saquare to None, run_after=None
+[2023-09-14T20:21:41.811+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/magic_square.py took 0.091 seconds
+[2023-09-14T20:21:47.056+0000] {processor.py:153} INFO - Started process (PID=17847) to work on /opt/airflow/dags/magic_square.py
+[2023-09-14T20:21:47.056+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/magic_square.py for tasks to queue
+[2023-09-14T20:21:47.057+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:21:47.057+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/magic_square.py
+[2023-09-14T20:21:47.072+0000] {processor.py:753} INFO - DAG(s) dict_keys(['magic_saquare']) retrieved from /opt/airflow/dags/magic_square.py
+[2023-09-14T20:21:47.096+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:21:47.096+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-09-14T20:21:47.120+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:21:47.119+0000] {dag.py:3441} INFO - Setting next_dagrun for magic_saquare to None, run_after=None
+[2023-09-14T20:21:47.140+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/magic_square.py took 0.088 seconds
+[2023-09-14T20:21:52.526+0000] {processor.py:153} INFO - Started process (PID=17869) to work on /opt/airflow/dags/magic_square.py
+[2023-09-14T20:21:52.527+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/magic_square.py for tasks to queue
+[2023-09-14T20:21:52.528+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:21:52.528+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/magic_square.py
+[2023-09-14T20:21:52.543+0000] {processor.py:753} INFO - DAG(s) dict_keys(['magic_saquare']) retrieved from /opt/airflow/dags/magic_square.py
+[2023-09-14T20:21:52.568+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:21:52.568+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-09-14T20:21:52.594+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:21:52.594+0000] {dag.py:3441} INFO - Setting next_dagrun for magic_saquare to None, run_after=None
+[2023-09-14T20:21:52.620+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/magic_square.py took 0.097 seconds
+[2023-09-14T20:21:57.880+0000] {processor.py:153} INFO - Started process (PID=17877) to work on /opt/airflow/dags/magic_square.py
+[2023-09-14T20:21:57.881+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/magic_square.py for tasks to queue
+[2023-09-14T20:21:57.882+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:21:57.881+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/magic_square.py
+[2023-09-14T20:21:57.896+0000] {processor.py:753} INFO - DAG(s) dict_keys(['magic_saquare']) retrieved from /opt/airflow/dags/magic_square.py
+[2023-09-14T20:21:57.920+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:21:57.920+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-09-14T20:21:57.945+0000] {logging_mixin.py:137} INFO - [2023-09-14T20:21:57.944+0000] {dag.py:3441} INFO - Setting next_dagrun for magic_saquare to None, run_after=None
+[2023-09-14T20:21:57.965+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/magic_square.py took 0.088 seconds
