@@ -1,10 +1,6 @@
 docker-compose.yaml 
 .plugins 
 /logs
-email.py
-envio_teste.py
-/airflow/dags/envio_teste.py
-/airflow/dags/email.py 
 /dags/envio_teste.py
 /dags/email.py
 dags/envio_teste.py 
