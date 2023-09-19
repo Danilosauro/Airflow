@@ -1,6 +1,7 @@
 docker-compose.yaml 
-.plugins 
-.logs
+/plugins 
+./logs 
+/logs
 /dags/envio_teste.py
 /dags/email.py
 dags/envio_teste.py 
